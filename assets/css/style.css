@@ -1,0 +1,30 @@
+/* #region color */
+:root {
+    --db-lightgrey: #e5e5e5;
+}
+
+.bg_lightgrey {
+    background-color: var(--db-lightgrey);
+}
+
+
+
+/* #endregion color */
+
+/* #region header */
+
+#site_header {
+    height: 80px;
+}
+
+
+#site_header .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+
+#site_header form.d-flex {
+    width: 80%;
+}
+/* #endregion header */
