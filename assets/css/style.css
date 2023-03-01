@@ -4,10 +4,16 @@
     --db-nastywhite: #f8f9fa;
     --db-bluenav: #051e34;
     --db-op-white: #ffffff21;
+    --db-blue: #1b72e8;
+    --db-blue-sea: #165bba;
 }
 
 .bg_lightgrey {
     background-color: var(--db-lightgrey);
+}
+
+.bg_blue_sea {
+    background-color: var(--db-blue-sea);
 }
 /* #endregion color */
 
@@ -43,16 +49,37 @@
 #side_bar li:hover a {
     background-color: var(--db-op-white);
 }
+/* ########################### /.SIDE-BAR ############################# */
+
+#main_top {
+    height: 250px;
+    width: calc(100vw - 70px);
+    background-color: var(--db-blue);
+}
+
+/* ########################### /.MAIN-TOP ############################# */
 
 /* #endregion main */
 
 
 
 /* responsive */
+@media screen and (min-width: 768px) {
+    #main_top {
+        height: 135px;
+    }
+    
+    
+}
+
+
 @media screen and (min-width: 992px) {
 
     #side_bar {
-        width: 170px;
+        width: 160px;
     }
     
+    #main_top {
+        width: calc(100vw - 160px);
+    }
 }
