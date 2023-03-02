@@ -17,6 +17,10 @@
 }
 /* #endregion color */
 
+img {
+    max-width: 100%;
+}
+
 /* #region header */
 #site_header {
     height: 70px;
