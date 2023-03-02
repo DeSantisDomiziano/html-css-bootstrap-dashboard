@@ -28,7 +28,6 @@
     left: auto;
 }
 
-
 #site_header form.d-flex {
     width: 80%;
 }
@@ -56,8 +55,16 @@
     width: calc(100vw - 70px);
     background-color: var(--db-blue);
 }
-
 /* ########################### /.MAIN-TOP ############################# */
+
+#main_bottom {
+    height: calc(100vh - 320px);
+    overflow-y: auto;
+}
+
+/* ########################### /.MAIN-BOTTOM ############################# */
+
+
 
 /* #endregion main */
 
@@ -68,8 +75,11 @@
     #main_top {
         height: 135px;
     }
-    
-    
+
+    #main_bottom {
+        height: calc(100vh - 205px);
+    }
+  
 }
 
 
@@ -81,5 +91,9 @@
     
     #main_top {
         width: calc(100vw - 160px);
+    }
+
+    #main_top .offcanvas.offcanvas-end {
+        width: 50% !important; 
     }
 }
